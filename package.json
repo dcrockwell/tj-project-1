@@ -1,0 +1,32 @@
+{
+  "name": "tj-project-1",
+  "version": "0.0.0",
+  "description": "Pair Programming Example Project w/ TJ",
+  "main": "source/index.js",
+  "type": "module",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node source/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcrockwell/tj-project-1.git"
+  },
+  "keywords": [
+    "pairing",
+    "tj",
+    "example"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dcrockwell/tj-project-1/issues"
+  },
+  "homepage": "https://github.com/dcrockwell/tj-project-1#readme"
+}
