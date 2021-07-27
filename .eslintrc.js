@@ -1,7 +1,7 @@
 module.exports = {
   env: {
     es2021: true,
-    node: true,
+    node: true
   },
   extends: [
     'airbnb-base',
@@ -10,6 +10,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
+  plugins: ['jest'],
   rules: {
     'import/extensions': ['error', 'ignorePackages'],
   },
